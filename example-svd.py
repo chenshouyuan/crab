@@ -1,8 +1,8 @@
-from scikits.crab.models import MatrixPreferenceDataModel
-from scikits.crab.metrics.pairwise import cosine_distances
-from scikits.crab.similarities import ItemSimilarity
+from ..scikits.crab.models import MatrixPreferenceDataModel
+from ..scikits.crab.metrics.pairwise import cosine_distances
+from ..scikits.crab.similarities import ItemSimilarity
 
-from scikits.crab.recommenders.svd.classes import MatrixFactorBasedRecommender
+from ..scikits.crab.recommenders.svd.classes import MatrixFactorBasedRecommender
 
 movies = {'Marcel Caraciolo': {'Lady in the Water': 2.5, 'Snakes on a Plane': 3.5,
  'Just My Luck': 3.0, 'Superman Returns': 3.5, 'You, Me and Dupree': 2.5,
